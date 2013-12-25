@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC633B821868BB0600F59DA7 /* index5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC633B811868BB0600F59DA7 /* index5.png */; };
+		EC633B841868C39600F59DA7 /* bluePlatform.png in Resources */ = {isa = PBXBuildFile; fileRef = EC633B831868C39600F59DA7 /* bluePlatform.png */; };
+		EC633B8A18691E4D00F59DA7 /* platform.m in Sources */ = {isa = PBXBuildFile; fileRef = EC633B8918691E4D00F59DA7 /* platform.m */; };
 		EC93B58E1868990B00364D8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC93B58D1868990B00364D8E /* Foundation.framework */; };
 		EC93B5901868990B00364D8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC93B58F1868990B00364D8E /* CoreGraphics.framework */; };
 		EC93B5921868990B00364D8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC93B5911868990B00364D8E /* UIKit.framework */; };
@@ -22,6 +25,11 @@
 		EC93B5B21868990B00364D8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC93B5911868990B00364D8E /* UIKit.framework */; };
 		EC93B5BA1868990B00364D8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC93B5B81868990B00364D8E /* InfoPlist.strings */; };
 		EC93B5BC1868990B00364D8E /* FireJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC93B5BB1868990B00364D8E /* FireJumpTests.m */; };
+		EC93B5C918689B8600364D8E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EC93B5C618689B8600364D8E /* background.png */; };
+		EC93B5CA18689B8600364D8E /* platform.png in Resources */ = {isa = PBXBuildFile; fileRef = EC93B5C718689B8600364D8E /* platform.png */; };
+		EC93B5CB18689B8600364D8E /* sparky.png in Resources */ = {isa = PBXBuildFile; fileRef = EC93B5C818689B8600364D8E /* sparky.png */; };
+		ECC9387C1869F68000058D80 /* ControlsViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9387B1869F68000058D80 /* ControlsViewViewController.m */; };
+		ECC9387F186A578800058D80 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9387E186A578800058D80 /* Coin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC633B811868BB0600F59DA7 /* index5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index5.png; sourceTree = "<group>"; };
+		EC633B831868C39600F59DA7 /* bluePlatform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluePlatform.png; sourceTree = "<group>"; };
+		EC633B8818691E4D00F59DA7 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		EC633B8918691E4D00F59DA7 /* platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = platform.m; sourceTree = "<group>"; };
 		EC93B58A1868990B00364D8E /* FireJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC93B58D1868990B00364D8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC93B58F1868990B00364D8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +67,13 @@
 		EC93B5B71868990B00364D8E /* FireJumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireJumpTests-Info.plist"; sourceTree = "<group>"; };
 		EC93B5B91868990B00364D8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC93B5BB1868990B00364D8E /* FireJumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireJumpTests.m; sourceTree = "<group>"; };
+		EC93B5C618689B8600364D8E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		EC93B5C718689B8600364D8E /* platform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platform.png; sourceTree = "<group>"; };
+		EC93B5C818689B8600364D8E /* sparky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparky.png; sourceTree = "<group>"; };
+		ECC9387A1869F68000058D80 /* ControlsViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsViewViewController.h; sourceTree = "<group>"; };
+		ECC9387B1869F68000058D80 /* ControlsViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsViewViewController.m; sourceTree = "<group>"; };
+		ECC9387D186A578800058D80 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		ECC9387E186A578800058D80 /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +133,19 @@
 		EC93B5931868990B00364D8E /* FireJump */ = {
 			isa = PBXGroup;
 			children = (
+				EC93B5C518689B8600364D8E /* images */,
 				EC93B59C1868990B00364D8E /* CRNTAppDelegate.h */,
 				EC93B59D1868990B00364D8E /* CRNTAppDelegate.m */,
 				EC93B59F1868990B00364D8E /* Main_iPhone.storyboard */,
+				ECC9387A1869F68000058D80 /* ControlsViewViewController.h */,
+				ECC9387B1869F68000058D80 /* ControlsViewViewController.m */,
 				EC93B5A21868990B00364D8E /* Main_iPad.storyboard */,
 				EC93B5A51868990B00364D8E /* CRNTViewController.h */,
 				EC93B5A61868990B00364D8E /* CRNTViewController.m */,
+				ECC9387D186A578800058D80 /* Coin.h */,
+				ECC9387E186A578800058D80 /* Coin.m */,
+				EC633B8818691E4D00F59DA7 /* platform.h */,
+				EC633B8918691E4D00F59DA7 /* platform.m */,
 				EC93B5A81868990B00364D8E /* Images.xcassets */,
 				EC93B5941868990B00364D8E /* Supporting Files */,
 			);
@@ -153,6 +179,18 @@
 				EC93B5B81868990B00364D8E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC93B5C518689B8600364D8E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EC633B831868C39600F59DA7 /* bluePlatform.png */,
+				EC633B811868BB0600F59DA7 /* index5.png */,
+				EC93B5C618689B8600364D8E /* background.png */,
+				EC93B5C718689B8600364D8E /* platform.png */,
+				EC93B5C818689B8600364D8E /* sparky.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +270,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC93B5CB18689B8600364D8E /* sparky.png in Resources */,
 				EC93B5A41868990B00364D8E /* Main_iPad.storyboard in Resources */,
+				EC633B821868BB0600F59DA7 /* index5.png in Resources */,
+				EC93B5C918689B8600364D8E /* background.png in Resources */,
 				EC93B5A91868990B00364D8E /* Images.xcassets in Resources */,
+				EC633B841868C39600F59DA7 /* bluePlatform.png in Resources */,
 				EC93B5A11868990B00364D8E /* Main_iPhone.storyboard in Resources */,
+				EC93B5CA18689B8600364D8E /* platform.png in Resources */,
 				EC93B5981868990B00364D8E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC93B59A1868990B00364D8E /* main.m in Sources */,
+				ECC9387C1869F68000058D80 /* ControlsViewViewController.m in Sources */,
+				ECC9387F186A578800058D80 /* Coin.m in Sources */,
 				EC93B5A71868990B00364D8E /* CRNTViewController.m in Sources */,
+				EC633B8A18691E4D00F59DA7 /* platform.m in Sources */,
 				EC93B59E1868990B00364D8E /* CRNTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +443,7 @@
 				GCC_PREFIX_HEADER = "FireJump/FireJump-Prefix.pch";
 				INFOPLIST_FILE = "FireJump/FireJump-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +457,7 @@
 				GCC_PREFIX_HEADER = "FireJump/FireJump-Prefix.pch";
 				INFOPLIST_FILE = "FireJump/FireJump-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +523,7 @@
 				EC93B5C11868990B00364D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC93B5C21868990B00364D8E /* Build configuration list for PBXNativeTarget "FireJumpTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +532,7 @@
 				EC93B5C41868990B00364D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
