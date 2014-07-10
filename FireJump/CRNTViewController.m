@@ -182,6 +182,13 @@ int controlState = cAccelerometer;
             && ((sparky.center.y + gPlatformConstant) < [(UIImageView *)[platformArray objectAtIndex:i] center].y)
             && (sparkyVelocity.y > 0)){sparkyVelocity.y = -gBounce;}
     }
+    for (int i = 0; i < [coinArray count]; i++){
+        if((CGRectIntersectsRect(sparky.frame, [(UIImageView *)[coinArray objectAtIndex:i] frame]))){
+            [(UIImageView *)[coinArray objectAtIndex:i] removeFromSuperview];
+            score+=50;
+            labelScore.text = [NSString stringWithFormat:@"%li", (long)score];
+        }
+    }
 }
 
 - (void)generateNewPlatforms{
